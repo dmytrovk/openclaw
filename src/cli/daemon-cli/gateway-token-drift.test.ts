@@ -30,7 +30,7 @@ describe("resolveGatewayTokenForDriftCheck", () => {
           },
         },
         gateway: {
-          mode: "local",
+          mode: "locally",
           auth: {
             mode: "token",
             token: { source: "env", provider: "default", id: "SERVICE_GATEWAY_TOKEN" },
